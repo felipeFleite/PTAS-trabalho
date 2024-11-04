@@ -5,6 +5,7 @@ const PORT = 3000;
 const initRouter = require('./rotas/rotaInit')
 const itemsRouter = require('./rotas/rotaItems');
 
+app.use(express.json());
 app.use('/', initRouter);
 app.use('/items', itemsRouter);
 
