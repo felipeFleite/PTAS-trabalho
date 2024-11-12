@@ -1,4 +1,3 @@
-// middlewares.js
 function autenticacao(req, res, next) {
     const token = req.query.token;
 

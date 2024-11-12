@@ -1,4 +1,4 @@
-let items = [
+const items = [
     { id: 1, nome: 'Batata' },
     { id: 2, nome: 'Pão' },
   ];
